@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en-KE">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Nairobi's most trusted plumbing service. 24/7 emergency repairs, installations & maintenance. Certified professionals, transparent pricing. Call now!" />
+    <meta name="keywords" content="plumbing Nairobi, emergency plumber Kenya, pipe repair, drain cleaning, water installation" />
+    <meta name="author" content="Nairobi Pro Plumbing" />
+    <meta property="og:title" content="Nairobi Pro Plumbing | 24/7 Emergency Service" />
+    <meta property="og:description" content="Fast, reliable plumbing services in Nairobi. Certified professionals, transparent pricing, 100% satisfaction guaranteed." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_KE" />
+    <title>Nairobi Pro Plumbing | 24/7 Emergency Plumbing Services</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="loading-spinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Sticky Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-faucet-drip"></i>
+                <span>Nairobi<span class="accent">Pro</span>Plumbing</span>
+            </a>
+            
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#reviews" class="nav-link">Reviews</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-ctas">
+                <a href="tel:+254700123456" class="btn btn-primary btn-sm">
+                    <i class="fa-solid fa-phone"></i> Call Now
+                </a>
+                <a href="https://wa.me/254700123456" class="btn btn-whatsapp btn-sm" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+            
+            <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobile-overlay"></div>
+    <nav class="mobile-menu" id="mobile-menu">
+        <button class="mobile-menu-close" id="mobile-close" aria-label="Close menu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <ul class="mobile-nav-list">
+            <li><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li><a href="#about" class="mobile-nav-link">About</a></li>
+            <li><a href="#reviews" class="mobile-nav-link">Reviews</a></li>
+            <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-ctas">
+            <a href="tel:+254700123456" class="btn btn-primary btn-full">
+                <i class="fa-solid fa-phone"></i> Call Now
+            </a>
+            <a href="https://wa.me/254700123456" class="btn btn-whatsapp btn-full" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text reveal">
+                <h1 class="hero-title">
+                    Emergency Plumbing Problems? <span class="accent">We Fix It Fast.</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Nairobi's most trusted plumbing experts. 24/7 emergency service, certified professionals, and transparent pricing. No call-out fees.
+                </p>
+                <div class="hero-ctas">
+                    <a href="tel:+254700123456" class="btn btn-primary btn-lg">
+                        <i class="fa-solid fa-phone-volume"></i> Call Now - 24/7
+                    </a>
+                    <a href="https://wa.me/254700123456" class="btn btn-outline btn-lg" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp Us
+                    </a>
+                </div>
+                <div class="trust-indicators">
+                    <div class="trust-item">
+                        <i class="fa-solid fa-users"></i>
+                        <span>500+ Happy Clients</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fa-solid fa-clock"></i>
+                        <span>24/7 Emergency Service</span>
+                    </div>
+                    <div class="trust-item">
+                        <i class="fa-solid fa-bolt"></i>
+                        <span>30-Min Response</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <a href="#services" class="scroll-down">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Our <span class="accent">Premium Services</span></h2>
+                <p class="section-subtitle">Professional plumbing solutions for homes and businesses across Nairobi</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <h3 class="service-title">Pipe Repair & Replacement</h3>
+                    <p class="service-desc">Fix leaks, bursts, and corrosion with minimal disruption. We use premium materials for long-lasting results.</p>
+                    <a href="#contact" class="service-link">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-toilet"></i>
+                    </div>
+                    <h3 class="service-title">Drain Cleaning</h3>
+                    <p class="service-desc">Clear stubborn clogs and prevent future blockages with our advanced hydro-jetting technology.</p>
+                    <a href="#contact" class="service-link">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-faucet"></i>
+                    </div>
+                    <h3 class="service-title">Installations</h3>
+                    <p class="service-desc">Expert installation of taps, showers, water heaters, and complete bathroom/kitchen plumbing systems.</p>
+                    <a href="#contact" class="service-link">Get Quote <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="service-card reveal">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-truck-medical"></i>
+                    </div>
+                    <h3 class="service-title">Emergency Plumbing</h3>
+                    <p class="service-desc">24/7 rapid response for burst pipes, flooding, gas leaks, and other urgent plumbing emergencies.</p>
+                    <a href="tel:+254700123456" class="service-link">Call Emergency <i class="fa-solid fa-phone"></i></a>
+                </div>
+            </div>
+            
+            <div class="services-cta reveal">
+                <p>Need a service not listed here?</p>
+                <a href="#contact" class="btn btn-primary">Contact Us for Custom Solutions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us" id="about">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-image reveal">
+                    <div class="image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1584621881583-1c3e73e5e4c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Professional plumber at work" />
+                        <div class="experience-badge">
+                            <span class="years">10+</span>
+                            <span class="text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="why-us-content reveal">
+                    <h2 class="section-title">Why Nairobi <span class="accent">Chooses Us</span></h2>
+                    <p class="section-subtitle">We don't just fix pipes—we deliver peace of mind with every service call.</p>
+                    
+                    <ul class="benefits-list">
+                        <li class="benefit-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <h4>24/7 Emergency Availability</h4>
+                                <p>Round-the-clock service for urgent plumbing issues, including weekends and holidays.</p>
+                            </div>
+                        </li>
+                        <li class="benefit-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <h4>Certified Professionals</h4>
+                                <p>All technicians are licensed, insured, and trained in the latest plumbing techniques.</p>
+                            </div>
+                        </li>
+                        <li class="benefit-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <h4>Transparent Pricing</h4>
+                                <p>No hidden fees. Get a clear quote before work begins with our upfront pricing policy.</p>
+                            </div>
+                        </li>
+                        <li class="benefit-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <h4>30-Minute Response Time</h4>
+                                <p>Fast dispatch across Nairobi, Westlands, Karen, Kilimani, and surrounding areas.</p>
+                            </div>
+                        </li>
+                        <li class="benefit-item">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <div>
+                                <h4>100% Satisfaction Guarantee</h4>
+                                <p>If you're not completely satisfied, we'll make it right—no questions asked.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <div class="trust-badges">
+                        <div class="badge">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <span>Fully Insured</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fa-solid fa-medal"></i>
+                            <span>Certified Experts</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                            <span>Eco-Friendly</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="reviews">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">What Our <span class="accent">Clients Say</span></h2>
+                <p class="section-subtitle">Real reviews from homeowners and businesses across Nairobi</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card reveal">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Called at 2 AM for a burst pipe. They arrived in 25 minutes and fixed everything professionally. No mess, no stress. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JK</div>
+                        <div>
+                            <h4>Jane Kamau</h4>
+                            <p>Kilimani, Nairobi</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card reveal">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Transparent pricing and excellent workmanship. They installed our new water heater and explained everything clearly. Will use again!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MO</div>
+                        <div>
+                            <h4>Michael Omondi</h4>
+                            <p>Westlands, Nairobi</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card reveal">
+                    <div class="rating">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p class="testimonial-text">"Professional team that respects your home. They cleaned up after the drain repair and the price was exactly as quoted. Great service!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AW</div>
+                        <div>
+                            <h4>Amina Wali</h4>
+                            <p>Karen, Nairobi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="testimonials-cta reveal">
+                <p>Join 500+ satisfied customers across Nairobi</p>
+                <a href="#contact" class="btn btn-outline">Book Your Service Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+                    <p class="section-subtitle">Ready to solve your plumbing issue? Contact us now for fast, reliable service.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <div>
+                                <h4>Call Us 24/7</h4>
+                                <a href="tel:+254700123456">+254 700 123 456</a>
+                                <a href="tel:+254722987654">+254 722 987 654</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <div>
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/254700123456" target="_blank">Chat with us now</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <h4>Email Us</h4>
+                                <a href="mailto:info@nairoiproplumbing.co.ke">info@nairoiproplumbing.co.ke</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <div>
+                                <h4>Service Area</h4>
+                                <p>Nairobi & Surrounding Counties<br>Westlands • Karen • Kilimani • Lavington • Kileleshwa</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="business-hours">
+                        <h4>Business Hours</h4>
+                        <ul>
+                            <li><span>Monday - Friday:</span> 24 Hours</li>
+                            <li><span>Saturday - Sunday:</span> 24 Hours</li>
+                            <li><span>Emergencies:</span> Always Available</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="contact-form-wrapper reveal">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name" />
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+254 7XX XXX XXX" pattern="^(\+254|0)[71]\d{8}$" />
+                            <span class="error-message" id="phone-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="emergency">Emergency Repair</option>
+                                <option value="pipe">Pipe Repair/Replacement</option>
+                                <option value="drain">Drain Cleaning</option>
+                                <option value="install">Installation</option>
+                                <option value="maintenance">Maintenance Check</option>
+                                <option value="other">Other Service</option>
+                            </select>
+                            <span class="error-message" id="service-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Describe Your Issue *</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Tell us about your plumbing issue..."></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-spinner"></span>
+                        </button>
+                        
+                        <div class="form-message" id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Google Map Embed -->
+            <div class="map-container reveal">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126920.28338230253!2d36.7073!3d-1.2921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d7c7f7c7f7%3A0x123456789abcdef!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2ske!4v1700000000000" 
+                    width="100%" 
+                    height="400" 
+                    style="border:0; border-radius: 16px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Nairobi Service Area Map">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo footer-logo">
+                        <i class="fa-solid fa-faucet-drip"></i>
+                        <span>Nairobi<span class="accent">Pro</span>Plumbing</span>
+                    </a>
+                    <p class="footer-desc">Nairobi's most trusted plumbing service. Professional, reliable, and available 24/7 for all your plumbing needs.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#about">Why Choose Us</a></li>
+                        <li><a href="#reviews">Client Reviews</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#">Emergency Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Pipe Repair</a></li>
+                        <li><a href="#">Drain Cleaning</a></li>
+                        <li><a href="#">Water Heater Install</a></li>
+                        <li><a href="#">Bathroom Plumbing</a></li>
+                        <li><a href="#">Commercial Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+254700123456">+254 700 123 456</a>
+                        </li>
+                        <li>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <a href="https://wa.me/254700123456">WhatsApp Us</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:info@nairoiproplumbing.co.ke">info@nairoiproplumbing.co.ke</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>Nairobi, Kenya</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="year"></span> Nairobi Pro Plumbing. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/254700123456" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us</span>
+    </a>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
